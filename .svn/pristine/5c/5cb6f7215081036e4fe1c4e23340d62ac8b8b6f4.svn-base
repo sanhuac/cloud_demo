@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="biyouche" />
+        <module name="driver_provider" />
+        <module name="eureka_server" />
+        <module name="ribbon_customer" />
+        <module name="service_feign" />
+        <module name="service_zuul" />
+        <module name="user_provider" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="biyouche" target="1.5" />
+      <module name="driver1-provider" target="1.8" />
+      <module name="driver_provider" target="1.8" />
+      <module name="eureka_server" target="1.8" />
+      <module name="feign_serice" target="1.8" />
+      <module name="ribbon_customer" target="1.8" />
+      <module name="service_feign" target="1.8" />
+      <module name="service_zuul" target="1.8" />
+      <module name="user_provider" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
